@@ -23,6 +23,8 @@ if (file_exists("fb-comments.log")) {
  * */
 
 /*end*/
+
+//check code
 if (!file_exists($fh)) {
 	print "ERROR: Missing input.csv\n";
 	exit(1);
